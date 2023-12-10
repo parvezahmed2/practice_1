@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="/">Home</a></h1>
+    <h1><a href="/first_app/about/">About</a></h1>
+    <h1 ><a href="/first_app/contact/">Contact Us</a></h1>
+
+     <h1>{{first_name|add:" "|add:last_name}}</h1>
+
+     <h1>{{text | addslashes}}</h1>
+
+     <h1>{{first_name | capfirst}}</h1>
+
+     <h1>{{last_name | center:"20" }}</h1>
+
+
+     <h3>{{birthday | date:"D d M Y"}}</h3>
+
+     <h1>{{text2 | cut:" "}}</h1>
+     <h1>{{text2 | cut:"f"}}</h1>
+
+
+     <h1>{{text3 | default:"Nothing"}}</h1>
+    
+     <h2>{{ employe | dictsort:"name"}}</h2>
+     <h2>{{ employe | dictsort:"salary"}}</h2>
+
+
+    <h1>{{employe | first}}</h1>
+    <h1>{{employe | last}}</h1>
+
+    <h1>{{text2 | join:"//"}}</h1>
+
+    <h2>{{text1 | length}}</h2>
+
+    <h1>{{ country| lower}}</h1>
+
+    <h3>{{first_name | make_list}}</h3>
+
+    <h2>{{lst | random}}</h2>
+
+    <h1>{{lst | slice:":5"}}</h1>
+
+    <h2>{{text2 | slugify}}</h2>
+
+    <h2>{{birthday | time:"H:i"}}</h2>
+
+    <h1>{{ text2 | title }}</h1>
+
+    <h1>{{ country | upper}}</h1>
+
+    <h2>{{ text2 | wordcount}}</h2>
+
+
+
+
+
+
+
+
+    <h1>This is about page </h1>
+</body>
+</html>
